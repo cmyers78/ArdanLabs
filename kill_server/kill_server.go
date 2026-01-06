@@ -7,6 +7,8 @@ import (
 	"log/slog"
 	"os"
 )
+// NOTE: must create the `server.pid` file to debug since its removed
+// after each session
 
 func main() {
 	err := KillServer("server.pid")
